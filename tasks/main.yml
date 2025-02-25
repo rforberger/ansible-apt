@@ -1,0 +1,12 @@
+---
+
+
+- name: Write sources.list
+  ansible.builtin.template:
+    src: "debian.sources.list.j2"
+    dest: "/etc/apt/sources.list"
+
+
+
+
+
